@@ -21,8 +21,8 @@
       </div>
       <div class="media-content">
         <div class="content">
-          <strong>Roger Federer</strong><br>
-          <small>@wembelidon</small><br>
+          <strong><%= current_user.username %></strong><br>
+          <small>@<%= current_user.name %></small><br>
           <p> <%= tweet.tweeet %> </p>
         </div>
         <nav class="level">
